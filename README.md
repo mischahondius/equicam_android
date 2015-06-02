@@ -19,4 +19,4 @@ optioneel
 - Favorieten (clips)
 
 Schetsen
-![Schetsende geweest][schets]
+![Schetsende geweest][schets.jpg]
