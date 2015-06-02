@@ -19,4 +19,4 @@ optioneel
 - Favorieten (clips)
 
 Schetsen
-![alt text](https://github.com/mischahondius/equicam_android/schets.jpg "Logo Title Text 1")
+![alt text](https://github.com/mischahondius/equicam_android/blob/master/schets.jpg "Schets")
