@@ -11,4 +11,4 @@ optioneel
 - Zoekfunctie opgenomen clips
 - Aanpassen metadata clips
 - Zelf meerdere camera's toevoegen/verwijderen/bekijken
-
+- Opnemen van commentaar trainer live of achteraf, externe mic of intern telefoon
