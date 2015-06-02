@@ -21,4 +21,7 @@ _Optioneel_
 **Schetsen**
 ![alt text](https://github.com/mischahondius/equicam_android/blob/master/schets.jpg "Schets")
 
+**Data/bronnen**
+- Live beeld van camera (RTSP stream, via DynamischDNS, dus vast adres)
 
+ 
