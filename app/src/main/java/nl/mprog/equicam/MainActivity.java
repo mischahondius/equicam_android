@@ -1,17 +1,12 @@
 package nl.mprog.equicam;
 
 import android.app.Activity;
-import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 
 
-public class MainActivity extends Activity implements MediaPlayer.MediaPlayerCallback {
-
-    // callback handler
-    @Override
-    public int Status(int arg) {return 0;}
+public class MainActivity extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,21 +14,21 @@ public class MainActivity extends Activity implements MediaPlayer.MediaPlayerCal
         setContentView(R.layout.activity_main);
 
         // Create Playr instance
-        MediaPlayer player = new MediaPlayer();
-        player = (MediaPlayer)findViewById(R.id.playerView);
+//        MediaPlayer player = new MediaPlayer();
+//        player = (MediaPlayer)findViewById(R.id.playerView);
 // Get player instance
 //        ...
 // Connect or start playback
-        player.Open(ConnectionUrl or File name,
-                decoderType,
-                rendererType,
-                synchroEnable,
-                synchroNeedDropVideoFrames,
-                rendererEnableColorVideo,
-                rendererEnableAspectRatio,
-                DataReceiveTimeout,
-                decoderNumberOfCpuCores,
-                this);
+//        player.Open(ConnectionUrl or File name,
+//                decoderType,
+//                rendererType,
+//                synchroEnable,
+//                synchroNeedDropVideoFrames,
+//                rendererEnableColorVideo,
+//                rendererEnableAspectRatio,
+//                DataReceiveTimeout,
+//                decoderNumberOfCpuCores,
+//                this);
     }
 
     @Override
@@ -62,13 +57,13 @@ public class MainActivity extends Activity implements MediaPlayer.MediaPlayerCal
     protected void onDestroy()
     {
         // Destroy and close player
-        if (player != null)
-        {
-        // Close connection to server
-                    player.close ();
-        // Desroy player
-                    player.onDestroy();
-                }
-                super.onDestroy();
+//        if (player != null)
+//        {
+//        // Close connection to server
+//                    player.close ();
+//        // Desroy player
+//                    player.onDestroy();
+//                }
+//                super.onDestroy();
     }
 }

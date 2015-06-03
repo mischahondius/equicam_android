@@ -9,16 +9,6 @@
     <TextView android:text="@string/hello_world" android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 
-    <FrameLayout
-        android:id="@+id/playerViewLayout"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content" >
-        <veg.mediaplayer.sdk.MediaPlayer
-            android:id="@+id/playerView"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:layout_gravity="center" />
-    </FrameLayout>
 
 
 </RelativeLayout>
